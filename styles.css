@@ -1,0 +1,70 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.message-box {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+
+.message-box-header {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.avatar {
+    width: 60px;
+    height: 60px;
+   
+    background-color: #ffc107;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+}
+
+h2 {
+    font-size: 18px;
+    margin: 0;
+}
+
+textarea {
+    width: 100%;
+    height: 60px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.message-box-buttons button {
+    background-color: #ffc107;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.message-box-buttons button.decline {
+    background-color: #f44336;
+    color: white;
+}
+
+.message-box-buttons button.accept {
+    color: white;
+}
+
+.message-box-buttons button:hover {
+    opacity: 0.8;
+}
+  
